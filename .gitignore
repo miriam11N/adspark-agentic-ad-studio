@@ -1,0 +1,26 @@
+# Virtual environment and secrets
+.venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Generated banners and temporary app artifacts
+outputs/*
+!outputs/.gitkeep
+
+# Data and model artifacts
+data/raw/
+data/processed/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
